@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa70649a-bdd2-49eb-84c9-87ece95519fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tessdata/configs/api_config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tessdata/configs/digits" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tessdata/configs/hocr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tessdata/eng.traineddata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tessdata/osd.traineddata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tessdata/pdf.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tessdata/pdf.ttx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/bob/twitter/ProxyPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/bob/twitter/ProxyPool.java" afterDir="false" />
@@ -57,65 +63,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitter.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/bob/twitter/GithubRepoPageProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/bob/twitter/ProxyPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="889">
+              <caret line="98" column="17" lean-forward="true" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1844#1845#0" expanded="true" />
+                <element signature="e#1871#1872#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/List.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1816e157-3cd0-4af3-889b-24c4eb2d075d/console_1.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3.jar!/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -128,6 +85,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>doOCR</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,6 +128,11 @@
             <path>
               <item name="twitter" type="b2602c69:ProjectViewProjectNode" />
               <item name="twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="proxydata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,6 +155,10 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +174,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spiders" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -212,6 +183,9 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src" />
@@ -289,19 +263,19 @@
       <option name="presentableId" value="Default" />
       <updated>1561098910638</updated>
       <workItem from="1561098914786" duration="7536000" />
-      <workItem from="1561107188591" duration="7476000" />
+      <workItem from="1561107188591" duration="24821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15012000" />
+    <option name="totallyTimeSpent" value="32357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="-11" width="1082" height="1879" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3120155" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49957806" visible="true" weight="0.27325583" />
+      <window_info id="Structure" order="1" sideWeight="0.50042194" side_tool="true" weight="0.27325583" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -309,7 +283,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954725" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -337,79 +311,70 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/classes/cn/bob/twitter/GithubRepoPageProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#1265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561346694099.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3.jar!/us/codecraft/webmagic/Site.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/tessdata/pdf.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3.jar!/us/codecraft/webmagic/processor/PageProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561347781907.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3.jar!/us/codecraft/webmagic/processor/example/GithubRepoPageProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561347634318.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1816e157-3cd0-4af3-889b-24c4eb2d075d/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561347559573.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3.jar!/us/codecraft/webmagic/Spider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="425" column="17" selection-start-line="425" selection-start-column="17" selection-end-line="425" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561347149273.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Iterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561347117643.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="das://1816e157-3cd0-4af3-889b-24c4eb2d075d/schema/webmagic/table/ip_proxy_pool" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1816e157-3cd0-4af3-889b-24c4eb2d075d/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561346730869.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3.jar!/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561347494110.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/List.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561347896510.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3.jar!/us/codecraft/webmagic/scheduler/QueueScheduler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561348233433.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561348259314.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561348276384.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561350576482.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561350595232.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561350626023.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561350612118.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561350585306.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561348297128.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561348271252.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tessdata/eng.traineddata">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-94076">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -420,41 +385,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bob/twitter/GithubRepoPageProcessor.java">
+    <entry file="file://$PROJECT_DIR$/tessdata/pdf.ttx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-765" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bob/twitter/ProxyPoolPipeline.java">
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561348201274.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561350678182.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561359064315.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/tess4j/tess4j/3.2.1/tess4j-3.2.1-sources.jar!/net/sourceforge/tess4j/ITesseract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="386">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="405">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561427812046.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561427840366.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561348048979.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/tess4j/tess4j/3.2.1/tess4j-3.2.1-sources.jar!/net/sourceforge/tess4j/Tesseract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="131" column="27" selection-start-line="131" selection-start-column="11" selection-end-line="131" selection-end-column="27" />
+          <folding>
+            <element signature="e#3140#3141#0" expanded="true" />
+            <element signature="e#3166#3167#0" expanded="true" />
+            <element signature="e#3836#3837#0" expanded="true" />
+            <element signature="e#3876#3877#0" expanded="true" />
+            <element signature="e#22960#22961#0" expanded="true" />
+            <element signature="e#23005#23006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561427867341.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561428397622.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561428586269.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561428782577.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561428782906.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561428783864.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/runtime1561428782271.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxydata/proxy.mimvp.com/0e0ac68c5ac0b7e4b67468b1e022be22.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxydata/proxy.mimvp.com/2b156c37efbf226323d112a3afc08100.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxydata/proxy.mimvp.com/2d49e213d8878c62cd6cd8a13f56e5aa.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxydata/proxy.mimvp.com/4fd6e2e4c38be04e39f7bd7a830a28eb.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxydata/proxy.mimvp.com/9fefe38583e60f346705b64f0d76b09c.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxydata/proxy.mimvp.com/69e829b395e3201d2022f5ada3774ba4.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxydata/proxy.mimvp.com/430816449cbfa0c027426032fac6bf55.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxydata/proxy.mimvp.com/a840fa91ad3a68b0e31c4365e5fa37fb.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxydata/proxy.mimvp.com/c47c04322388f334797dfe0980c33045.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxydata/proxy.mimvp.com/cc1efc4e0b339afeac214f6f3693a686.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/bob/twitter/ProxyPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="889">
+          <caret line="98" column="17" lean-forward="true" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
           </folding>
         </state>
       </provider>
